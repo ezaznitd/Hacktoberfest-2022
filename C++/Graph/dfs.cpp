@@ -36,11 +36,7 @@ int main()
 	g.addEdge(2, 0);
 	g.addEdge(2, 3);
 	g.addEdge(3, 3);
-
-	cout << "Following is Depth First Traversal"
-			" (starting from vertex 2) \n";
-
-	// Function call
+	cout << "Following is Depth First Traversal (starting from vertex 2) \n";
 	g.DFS(2);
 
 	return 0;
